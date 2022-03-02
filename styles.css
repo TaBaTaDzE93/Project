@@ -14,7 +14,6 @@ body {
 }
 
 /* second div from header */
-/**************************/
 .head_bg {
   width: 1440px;
   height: 750px;
@@ -89,7 +88,7 @@ body {
 /* header registration form */
 .forn__btn {
   width: 80px;
-  height: 25px;
+  height: 30px;
   border: 1px solid white;
   background: none;
   border-radius: 2%;
@@ -285,4 +284,53 @@ iframe {
 .human img {
   width: 55px;
   height: 70px;
+}
+
+/* business section */
+.Narrow_section {
+  height: auto;
+  display: flex;
+  margin: 0 auto;
+}
+
+.business__box {
+  width: 400px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.business__box a {
+  display: flex;
+  color: white;
+  padding: 40px 40px 40px 40px;
+}
+
+.business__box img {
+  width: 60px;
+  height: 60px;
+  margin-right: 25px;
+}
+
+.one {
+  background-color: #80d8ff;
+}
+.two {
+  background-color: #82b1ff;
+}
+.tree {
+  background-color: #b388ff;
+}
+.four {
+  background-color: #ea80fc;
+}
+
+.Business_title {
+  width: 120px;
+  height: 60px;
+  padding: 5px 0 0 0;
+  font-size: 20px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
 }
